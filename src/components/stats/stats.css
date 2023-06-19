@@ -1,0 +1,101 @@
+.stats{
+   
+}
+.stat-container {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stat-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/stats-image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+.stats-image{
+    position: fixed;
+    z-index: 0;
+    object-fit: cover;
+
+}
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.stats-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 6rem;
+}
+.vertical-lines{
+    width: 70px;
+    height: 4px;
+    background-color: #246a47;
+    z-index: 99;
+
+}
+.stats-content h1{
+    font-family: "lora", serif;
+    font-size: 38px;
+    color: #f4f8fd;
+    font-weight: 500;
+    z-index: 99 ;
+    margin: 3rem 0 0;
+}
+.stats-content p{
+    font-family: "lora", serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 38px;
+    color: #f4f8fd;
+    z-index: 99 ;
+    max-width: 750px;
+    text-align: center;
+    margin: 2rem 0;
+}
+.stat-button{
+    font-family: "lora", serif;
+    font-size: 27px;
+    font-weight: 200;
+    color: white;
+    z-index: 99 ;
+    background-color: #246a47;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: all 0.5s;
+}
+.stat-button:hover{
+    color: #246a47;
+    background-color: #f4f8fd;
+}
+
+.stat-button span{
+    text-decoration: none;
+}
+.cta-background{
+    height: 700px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, 0.85)
+}

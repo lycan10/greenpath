@@ -1,0 +1,99 @@
+.navbar{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 99;
+    border-bottom: 1px solid rgb(105, 104, 104) ;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+}
+.navbar-logo{
+    width: 150px;
+    height: 70px;
+}
+.navbar-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links ul li{
+    list-style: none;
+    margin: 0 1rem;
+    position: relative;
+}
+
+.navbar-links ul li span{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    padding: 0 10px;
+}
+.navbar-links ul li span::after{
+    content: "";
+    position: absolute;
+    background-color: #84dc00;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: all 0.5s;
+}
+.navbar-links ul li span:hover::after{
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+.navbar-cta{
+    padding-right: 1rem;
+}
+.navbar-cta span{
+   margin:0;
+}
+.link-cta{
+    text-decoration: none;
+}
+.signup{
+    background-color: black;
+    padding: 0.5rem 2rem;
+    margin-left: 1.5rem;
+    color: white;
+    border-radius: 8px;
+}
+.signup:hover{
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    margin-left: 1.5rem;
+    border: 1px solid black;
+    transition: all 0.7s;
+    color: black;
+}
+.login{
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+   color: black;
+   border-radius: 8px;
+}
+.login:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.7s;
+}
+.footer-icon{
+    cursor: pointer;
+}
+.footer-icon:hover{
+    color: #84dc00;
+}
+

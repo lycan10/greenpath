@@ -1,0 +1,72 @@
+.aboutH{
+    padding: 8rem 8rem;
+    position: relative;
+}
+.aboutH-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.aboutH-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 4rem;
+    
+}
+.aboutH-content h1{
+    font-size: 56px;
+    line-height: 32px;
+}
+.about-us-title{
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: #246a47;
+    margin: 1rem 0;
+}
+.aboutH-content p{
+    font-size: 22px;
+    line-height: 42px;
+    max-width: 650px;
+}
+.aboutH-content span{
+    font-size: 22px;
+    background-color: #246a47;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 8px;
+}
+.aboutH-content span:hover{
+    background-color: white;
+   border: 1px solid #246a47;
+    color: #246a47;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+.aboutH-button{
+    text-decoration: none;
+    margin-top: 3rem;
+}
+.aboutH-image{
+    display: flex;
+    flex: 1;
+}
+.aboutH-image::before{
+    content: '';
+    border: 5px solid #246a47;
+    position: absolute;
+    width: 30%;
+    right: 14rem;
+    top: 12.5rem;
+    height: 500px ;
+    z-index: 0;
+}
+.aboutH-image img{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    z-index: 100;
+}
