@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/greenpath/static/css/main.d915e3f4.css",
-    "main.js": "/greenpath/static/js/main.1f3f6c88.js",
+    "main.css": "/greenpath/static/css/main.693ffc2c.css",
+    "main.js": "/greenpath/static/js/main.3e4e3aef.js",
     "static/media/headerBanner.jpg": "/greenpath/static/media/headerBanner.d99b84630dca675beefd.jpg",
     "static/media/stats-image1.jpg": "/greenpath/static/media/stats-image1.d30683267e1f000fd50b.jpg",
     "static/media/about-us.jpg": "/greenpath/static/media/about-us.278cfc2ba677e50d8947.jpg",
@@ -37,11 +37,11 @@
     "index.html": "/greenpath/index.html",
     "static/media/envelope.svg": "/greenpath/static/media/envelope.d032a9f7066ae23c1b5c314be2edfc4d.svg",
     "static/media/clock.svg": "/greenpath/static/media/clock.4452f1125116dc3235ded84d091f00fe.svg",
-    "main.d915e3f4.css.map": "/greenpath/static/css/main.d915e3f4.css.map",
-    "main.1f3f6c88.js.map": "/greenpath/static/js/main.1f3f6c88.js.map"
+    "main.693ffc2c.css.map": "/greenpath/static/css/main.693ffc2c.css.map",
+    "main.3e4e3aef.js.map": "/greenpath/static/js/main.3e4e3aef.js.map"
   },
   "entrypoints": [
-    "static/css/main.d915e3f4.css",
-    "static/js/main.1f3f6c88.js"
+    "static/css/main.693ffc2c.css",
+    "static/js/main.3e4e3aef.js"
   ]
 }
