@@ -33,3 +33,19 @@
     margin-bottom: 2rem;
 
 }
+@media screen and (max-width: 901px) {
+    .blog-news h1{
+        margin: 3rem 0 1rem;
+        text-decoration: none;
+    }
+    .blog{
+        padding: 0rem 3rem ;
+    }
+    .blog-news p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: 100;
+        color: #989898df;
+        margin-bottom: 1rem;
+    }
+}

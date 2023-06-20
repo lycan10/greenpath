@@ -163,3 +163,199 @@
     border-radius: 100%;
     color: #246a47;
 }
+.contact-map {
+    padding:0 6rem; 
+    margin-bottom: 8rem
+}
+
+@media screen and (max-width:1500px) {
+    .contact-title{
+        bottom: 2rem;
+        left: 6%;
+    }
+    .contact-title h1{
+        font-size: 78px;
+    }
+    .contact-details h1{
+        margin-bottom: 4rem;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: 250px 250px;
+       gap: 30px;
+    }
+    .CD-text h3{
+        font-size: 18px;
+        margin: 0;
+    }
+    .CD-text p{
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .contact-SM{
+        margin-top: 4rem;
+    }
+    .contact-SM h1{
+        font-size: 30px;
+        font-weight: 500;
+        margin:0;
+    }
+    .sm-logos{
+        padding: 0.5rem;
+    }
+    .contact-details h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1201px) {
+    .contact-title{
+        bottom: 2rem;
+        left: 4%;
+    }
+    .contact-title h1{
+        font-size: 68px;
+    }
+    .contact-details h1{
+        margin-bottom: 2rem;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: 200px 200px;
+       gap: 30px;
+    }
+    .CD-text h3{
+        font-size: 16px;
+        margin: 0;
+    }
+    .CD-text p{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    .contact-SM{
+        margin-top: 4rem;
+    }
+    .contact-SM h1{
+        font-size: 30px;
+        font-weight: 500;
+        margin:0;
+    }
+    .sm-logos{
+        padding: 0.5rem;
+    }
+    .contact-details h1{
+        font-size: 30px;
+    }
+    .contact-details{
+        flex: 1;
+        height: 520px;
+        padding: 2rem 2rem;
+    }
+    .contact-map {
+        padding:0 4rem; 
+        margin-bottom: 4rem
+    }
+
+.contact-address{
+    margin: 2rem 4rem 0;
+
+}
+.contact-form{
+    flex: 1;
+    height: 520px;
+    padding: 2rem 3rem;
+    background-color: #f1f1f1;
+}
+.contact-form h1{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contact-form input{
+    width: 97%;
+    height: 40px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+.contact-form button{
+    background-color: #246a47;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+.contact-form textarea{
+    width: 95%;
+    height: 90px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    border: none;
+    padding: 1rem;
+}
+.contact-content{
+    margin: 4rem;
+}
+}
+@media screen and (max-width:801px) {
+    .contact-title{
+        bottom: 1rem;
+        left: 4%;
+    }
+    .contact-title h1{
+        font-size: 58px;
+    }
+    .contact-info{
+        display: grid;
+        grid-template-columns: 280px 280px;
+       gap: 30px;
+       left: -2rem;
+       position: relative;
+    }
+    .CD-text h3{
+        font-size: 23px;
+        margin: 0;
+    }
+    .CD-text p{
+        font-size: 19px;
+        font-weight: 100;
+    }
+    .contact-SM{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .contact-SM h1{
+        font-size: 30px;
+        font-weight: 500;
+        margin:0;
+    }
+    .contact-details h1{
+        font-size: 30px;
+    }
+    .contact-details{
+        height: 520px;
+        padding: 2rem 2rem;
+        width: 92%;
+        background-color: transparent;
+    }
+    .contact-address{
+        margin: 2rem 4rem 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+.contact-form{
+    height: 520px;
+    padding: 2rem 3rem;
+    background-color: #f1f1f1;
+    width: 87%;
+}
+.contact-form h1{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+}

@@ -70,3 +70,25 @@
     object-fit: cover;
     z-index: 100;
 }
+
+@media screen and (max-width: 1500px) {
+    .aboutH{
+        padding: 4rem 4rem;
+    }
+    .aboutH-content{
+        padding-left: 0rem; 
+    }
+    .aboutH-image{
+        padding-left: 2rem;
+    }
+    .aboutH-image::before{
+        content: '';
+        border: 5px solid #246a47;
+        position: absolute;
+        width: 35%;
+        right: 8rem;
+        top: 10rem;
+        height: 490px ;
+        z-index: 0;
+    }
+}

@@ -51,8 +51,8 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='offer' style={{padding:'2rem 9rem', background:'#F9F9F9'}}>
-        <div className='about-content' style={{margin:'2rem 0rem'}} >
+        <div className='offer'>
+        <div className='about-content1' >
             <h1>Why Us</h1>
             <div className='about-vertical'></div>
             <p>
@@ -63,13 +63,13 @@ const About = () => {
               <Cards />
           </div>
         </div>
-        <div className='our-team' style={{padding:'2rem 4rem'}}>
-        <div className='about-content'>
+        <div className='our-team'>
+        <div className='about-content2'>
             <h1>Our Team</h1>
             <div className='about-vertical'></div>
             <p>Our team members are passionate about their respective fields and are committed to staying at the forefront of industry trends and advancements. </p>
           </div>
-          <div style={{padding:'2rem 3rem'}} className='team-members'>
+          <div className='team-members'>
             <div className='team-image'>
               <img  height={600} src={team1} />
               <h1>Tobiloba Daniels</h1>

@@ -32,7 +32,7 @@ const Bloglist = () => {
       {
         articles.map((article)=>{
             return(
-                <Blog
+                <Blog key={article.url}
                     title={article.title}
                     author={article.author}
                     publishedAt={article.publishedAt}

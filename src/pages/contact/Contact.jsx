@@ -96,7 +96,7 @@ const Contact = () => {
         </div>
         </div>
        </div>
-       <div style={{padding:'0 6rem', marginBottom: '8rem'}}>
+       <div className='contact-map'>
         <Map />
         </div>
         <Footer /> 

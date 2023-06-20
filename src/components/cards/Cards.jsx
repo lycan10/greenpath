@@ -3,7 +3,7 @@ import image1 from '../../assets/innovation.jpg'
 import image2 from '../../assets/technical.jpg'
 import image3 from '../../assets/safety.jpeg'
 
-
+import './cards.css'
 
 const cards = [
     {
@@ -27,17 +27,17 @@ const cards = [
 ]
 const Cards = () => {
   return (
-    <div className='about-cards' style={{display:'flex', flexDirection:'row', justifyContent:'center', alignItems:'flex-start'}} >
+    <div className='about-cards'  >
     {
         cards.map((item)=>{
             return(
-            <div key={item.id} style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', boxShadow:'0 40px 120px -40px rgba(0,0,0,.24)', paddingBottom:'40px'}}>
+            <div className='about-card-container' key={item.id}>
                 <div className='about-cards-image'>
-                    <img style={{width: '500px', height:'300px', objectFit:'cover' }} src={item.img} />
+                    <img className='about-cards-img' src={item.img} />
                 </div>
-                <div className='about-cards-content' style={{padding:'2rem'}}>
+                <div className='about-cards-content'>
                     <h1>{item.Title}</h1>
-                    <p style={{maxWidth:'420px', fontSize: '17px', lineHeight: '28px', color: '#5A5A5A'}}> {item.content} </p>
+                    <p> {item.content} </p>
                 </div>
             </div>
             )

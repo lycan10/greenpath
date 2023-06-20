@@ -19,3 +19,8 @@
     font-weight: 100;
     margin: 0;
 }
+@media screen and (max-width:901px) {
+    .blog-content{
+        margin: 4rem 3rem 0rem;
+    }
+}

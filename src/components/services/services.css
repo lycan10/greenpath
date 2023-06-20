@@ -60,3 +60,19 @@
     background-color: transparent;
     transition: all 0.4s;
 }
+@media screen and (max-width: 1500px) {
+    .services{
+        padding: 4rem;
+    }
+    .services-image {
+        width: 295px;
+        height: 200px;
+        
+    }
+    .services-content p{
+        background-color: #F7F7F8;
+        padding: 0rem 1rem;
+        font-weight: 200;
+        font-size: 28px;  
+    }
+}
