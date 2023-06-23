@@ -226,7 +226,7 @@
     height: 500px;
     object-fit: cover;
   }
-  @media screen and (max-width: 1450px) {
+  @media (max-width: 1450px) {
     .services-title {
       position: absolute;
       bottom: 2rem;
@@ -273,7 +273,7 @@
     }
 
   }
-  @media screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .our-spec {
       position: relative;
       overflow: hidden;
@@ -305,7 +305,7 @@
       line-height: 20px;
     }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .services-title h1 {
     font-size: 42px;
     font-weight: bold;
@@ -390,7 +390,7 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .services-main-content {
     padding: 0rem 2rem;
   }
@@ -467,7 +467,7 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .services-main-content {
     padding: 0rem 2rem;
   }
@@ -550,7 +550,7 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .services-title {
     position: absolute;
     bottom: 5rem;
@@ -592,7 +592,7 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
   .services-main-content {
     padding: 0rem 2rem;
   }
