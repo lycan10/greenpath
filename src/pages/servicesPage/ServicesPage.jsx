@@ -1,38 +1,55 @@
-import React from 'react';
+import React,{useEffect, useRef} from 'react';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 import './servicesPage.css';
 import { servicesDate } from '../../constants';
+import video1 from '../../assets/services-vid.mp4';
+
+
 
 const servicesData = [
   {
     id: 0,
     num: '01.',
     title: 'Meticulous Planning',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+    content: ' Our services reflects our commitment to excellence, attention to detail, and proactive approach to achieving our goals.'
   },
   {
     id: 1,
     num: '02.',
-    title: 'On-Time Delivery',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+    title: 'Perfect Execution',
+    content: 'We possess the ability to flawlessly implement our plans, strategies, and initiatives, to achieve desired outcomes.'
   },
   {
     id: 2,
     num: '03.',
-    title: 'Perfect Execution',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+    title: 'On-Time Delivery',
+    content: 'We are commited to delivering products, services, or projects within the agreed-upon timeframe.'
   },
+  
   {
     id: 3,
     num: '04.',
     title: 'Competitive Prices',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+    content: 'By offering competitive prices, we seek to gain a competitive edge, attract new customers, and retain existing ones.'
   },
 ];
 
 const ServicesPage = () => {
- 
+
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const videoElement = videoRef.current;
+
+    const playVideo = () => {
+      videoElement.play().catch((error) => {
+        console.error('Video playback failed:', error);
+      });
+    };
+
+    playVideo();
+  }, []);
   return (
     <div className="services-page">
       <div className="services-container">
@@ -63,6 +80,9 @@ const ServicesPage = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className='services-video'>
+          <video ref={videoRef} className='video' src={video1} type='video/mp4' loop muted autoPlay playsInline />
         </div>
         <div className="services-page-main">
           <div className="services-page-content">

@@ -19,11 +19,11 @@
     position: absolute;
     bottom: 50px;
     margin: 2rem 1rem;
-    z-index: 100;
+    z-index: 6;
     height: 0;
     cursor: pointer;
 }
-.services-content p{
+.content-text{
     background-color: #F7F7F8;
     padding: 0rem 2rem;
     font-weight: 200;
@@ -74,5 +74,96 @@
         padding: 0rem 1rem;
         font-weight: 200;
         font-size: 28px;  
+    }
+}
+@media screen and (max-width: 1200px) {
+        .services{
+            padding: 4rem;
+        }
+        .services-image {
+            width: 285px;
+            height: 200px;
+            
+        }
+        .services-content-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .services-content p{
+            background-color: #F7F7F8;
+            padding: 0rem 1rem;
+            font-weight: 200;
+            font-size: 28px;  
+        }
+}
+@media screen and (max-width: 800px) {
+    .services{
+        padding: 4rem;
+    }
+    .services-image {
+        width: 300px;
+        height: 250px;
+        
+    }
+    .services-content-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .services-content p{
+        background-color: #F7F7F8;
+        padding: 0rem 1rem;
+        font-weight: 200;
+        font-size: 28px;  
+    }
+}
+@media screen and (max-width: 500px) {
+    .services{
+        padding: 4rem;
+    }
+    .services-image {
+        width: 300px;
+        height: 250px;
+        
+    }
+    .services-content-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .service-content-text{
+        position: absolute;
+        bottom: 50px;
+        margin: 2rem 1rem;
+        z-index: 6;
+        height: 0;
+        cursor: pointer;
+    }
+    .content-text{
+        background-color: #F7F7F8;
+        padding: 0rem 1rem;
+        font-weight: 200;
+        font-size: 0px;  
+    }
+}
+@media screen and (max-width: 400px) {
+    .services{
+        padding: 3rem;
+    }
+    .services-image {
+        width: 280px;
+        height: 250px;
+        
+    }
+}
+@media screen and (max-width: 350px) {
+    .services{
+        padding: 2rem;
+    }
+    .services-image {
+        width: 260px;
+        height: 250px;
+        
     }
 }

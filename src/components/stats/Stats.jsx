@@ -13,7 +13,7 @@ const Stats = () => {
             <h1>Contact us for you next project</h1>
             <p> Our team of experts are ready to collaborate with you and embark on a journey of <span>creativity, efficiency, and excellence.</span>  Together, we can bring your ideas to life.</p>
             
-            <Link className='stat-button'><span>Book an Appointment</span></Link>
+            <Link to='/contact' className='stat-button'><span>Book an Appointment</span></Link>
           
         </div>
         

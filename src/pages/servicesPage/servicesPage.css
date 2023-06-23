@@ -37,7 +37,7 @@
     position: absolute;
     bottom: 10rem;
     left: 10%;
-    z-index: 99;
+    z-index: 10;
   }
   
   .services-title h1 {
@@ -48,7 +48,7 @@
   
   .services-page-title {
     width: 100%;
-    margin: 4rem 0;
+    margin: 4rem 0 2rem;
   }
   
   .services-main-content {
@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
+    margin: 0rem 0 4rem;
   }
   
   .services-page-content h1 {
@@ -77,10 +77,9 @@
   }
   
   .services-page-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-self: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
     padding: 0rem 8rem;
   }
   
@@ -102,9 +101,10 @@
   
   .services-cards-content p {
     max-width: 300px;
-    font-size: 23px;
-    line-height: 38px;
+    font-size: 16px;
+    line-height: 26px;
     color: #5A5A5A;
+    margin: 0;
   }
   
   .services-content h1 {
@@ -185,7 +185,7 @@
   
   .our-spec:hover .our-spec-img::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
     transition: all 0.4s;
     z-index: 400;
   }
@@ -210,18 +210,28 @@
   .our-spec:hover .our-spec-p {
     display: block;
     position: absolute;
-    bottom: 6px;
+    top: 2px;
     padding: 0 2rem;
     color: white;
     z-index: 400;
     width: 80%;
+    font-size: 16px;
+    line-height: 27px;
   }
-  @media screen and (max-width: 1500px) {
+  .services-video{
+    margin: 3rem 8rem
+  }
+  .video{
+    width: 1550px;
+    height: 500px;
+    object-fit: cover;
+  }
+  @media screen and (max-width: 1450px) {
     .services-title {
       position: absolute;
       bottom: 2rem;
       left: 7%;
-      z-index: 99;
+      z-index: 10;
     }
     
     .services-title h1 {
@@ -238,10 +248,28 @@
     .our-spec {
       position: relative;
       overflow: hidden;
-      width: 275px;
+      width: 295px;
       height: 200px;
       transition: 0.5s;
       cursor: pointer;
+    }
+    .services-video{
+      margin: 3rem 6rem
+    }
+    .video{
+      width: 1250px;
+      object-fit: cover;
+    }
+    .our-spec:hover .our-spec-p {
+      display: block;
+      position: absolute;
+      top: 2px;
+      padding: 0 2rem;
+      color: white;
+      z-index: 400;
+      width: 80%;
+      font-size: 14px;
+      line-height: 27px;
     }
 
   }
@@ -249,10 +277,32 @@
     .our-spec {
       position: relative;
       overflow: hidden;
-      width: 225px;
-      height: 200px;
+      width: 195px;
+      height: 170px;
       transition: 0.5s;
       cursor: pointer;
+    }
+    .our-spec-content p{
+      font-size: 12px;
+    }
+    .services-video{
+      margin: 3rem 6rem
+    }
+    .video{
+      width: 850px;
+      height: 400px;
+      object-fit: cover;
+    }
+    .our-spec:hover .our-spec-p {
+      display: block;
+      position: absolute;
+      top: 2px;
+      padding: 0 1rem;
+      color: white;
+      z-index: 400;
+      width: 80%;
+      font-size: 11px;
+      line-height: 20px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -331,4 +381,283 @@
     font-size: 12px;
     z-index: 0;
   }
+  .services-video{
+    margin: 1rem 2rem
+  }
+  .video{
+    width: 670px;
+    height: 300px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 500px) {
+  .services-main-content {
+    padding: 0rem 2rem;
+  }
+  .services-title {
+    position: absolute;
+    bottom: 5rem;
+    left: 35%;
+    z-index: 10;
+  }
+  .services-title h1{
+    font-size: 43px;
+  }
+  .services-main-content h1{
+    font-size: 28px;
+  }
+  .services-page-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 0rem 2rem;
+  }
+  .our-specialization {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+  }
+  .our-spec {
+    position: relative;
+    overflow: hidden;
+    width: 175px;
+    height: 175px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .our-spec:hover .our-spec-p {
+    display: block;
+    position: absolute;
+    top: 2px;
+    padding: 0 1rem;
+    color: white;
+    z-index: 400;
+    width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .our-spec-content p {
+    background-color: azure;
+    padding: 0rem 0.5rem;
+    font-weight: 200;
+    font-size: 12px;
+    z-index: 0;
+  }
+  .our-spec-content {
+    position: absolute;
+    top: 92px;
+    margin: 2rem 0.5rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .services-vertical{
+    content: "";
+        width: 80px;
+        height: 2px;
+        background-color: #246a47;
+        margin: 0rem 0;
+  }
+  .services-video{
+    margin: 1rem 2rem
+  }
+  .video{
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services-main-content {
+    padding: 0rem 2rem;
+  }
+  .services-title {
+    position: absolute;
+    bottom: 5rem;
+    left: 35%;
+    z-index: 10;
+  }
+  .services-title h1{
+    font-size: 43px;
+  }
+  .services-main-content h1{
+    font-size: 28px;
+  }
+  .services-page-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 0rem 2rem;
+  }
+  
+  .our-spec:hover {
+    z-index: 1;
+    transform: scale(1.15);
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.5);
+  }
+  .our-specialization {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+  }
+  .our-spec {
+    position: relative;
+    overflow: hidden;
+    width: 165px;
+    height: 175px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .our-spec:hover .our-spec-p {
+    display: block;
+    position: absolute;
+    top: 2px;
+    padding: 0 1rem;
+    color: white;
+    z-index: 400;
+    width: 80%;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .our-spec-content p {
+    background-color: azure;
+    padding: 0rem 0.5rem;
+    font-weight: 200;
+    font-size: 12px;
+    z-index: 0;
+  }
+  .our-spec-content {
+    position: absolute;
+    top: 92px;
+    margin: 2rem 0.5rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .services-vertical{
+    content: "";
+        width: 80px;
+        height: 2px;
+        background-color: #246a47;
+        margin: 0rem 0;
+  }
+  .services-video{
+    margin: 1rem 2rem
+  }
+  .video{
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 400px) {
+  .services-title {
+    position: absolute;
+    bottom: 5rem;
+    left: 33%;
+    z-index: 7;
+  }
+  .our-spec {
+    position: relative;
+    overflow: hidden;
+    width: 145px;
+    height: 150px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .our-spec:hover .our-spec-p {
+    display: block;
+    position: absolute;
+    top: 2px;
+    padding: 0 1rem;
+    color: white;
+    z-index: 400;
+    width: 85%;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .our-spec-content {
+    position: absolute;
+    top: 70px;
+    margin: 2rem 0.5rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .services-video{
+    margin: 1rem 2rem
+  }
+  .video{
+    width: 310px;
+    height: 170px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 350px) {
+  .services-main-content {
+    padding: 0rem 2rem;
+  }
+  .services-title {
+    position: absolute;
+    bottom: 4rem;
+    left: 28%;
+    z-index: 7;
+  }
+  .services-title h1{
+    font-size: 43px;
+  }
+  .services-main-content h1{
+    font-size: 28px;
+  }
+  .services-page-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 0rem 2rem;
+  }
+  .our-specialization {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    position: relative;
+  }
+  .our-spec {
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .our-spec:hover .our-spec-p {
+    display: block;
+    position: absolute;
+    top: 2px;
+    padding: 0 1rem;
+    color: white;
+    z-index: 400;
+    width: 85%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .our-spec-content {
+    position: absolute;
+    top: 120px;
+    margin: 2rem 0.5rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .our-spec:hover {
+    z-index: 1;
+    transform: scale(1.15);
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.5);
+  }
+  .services-video{
+    margin: 1rem 2rem
+  }
+  .video{
+    width: 255px;
+    height: 140px;
+    object-fit: cover;
+  }
+  
 }

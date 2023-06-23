@@ -9,7 +9,7 @@
     z-index: 4;
 }
 .offer{
-    padding:2rem 0rem;
+    padding:2rem 0rem 5rem;
     background:#F9F9F9
 }
 .our-team {
@@ -24,7 +24,7 @@
     position: absolute;
     bottom: 10rem;
     left: 10%;
-    z-index: 99;
+    z-index: 5;
 }
 .about-title h1{
     font-size: 82px;
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     height: 700px;
-    margin: 6rem 6rem;
+    margin: 6rem 8rem;
 }
 .about-content-image{
     flex: 1;
@@ -68,7 +68,7 @@
 }
 .about-content1{
     flex: 1;
-    padding: 2rem 6rem;
+    padding: 2rem 9rem;
 }
 .about-content2{
     flex: 1;
@@ -175,7 +175,8 @@
 }
 .team-members img{
     object-fit: cover;
-    width: 100%
+    width: 470px;
+    height: 600px
 }
 .team-image{
     position: relative;
@@ -199,12 +200,12 @@
     margin: 1rem 0;
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1450px) {
     .about-title{
         position: absolute;
         bottom: 2rem;
         left: 8%;
-        z-index: 99;
+        z-index: 5;
     }
     .about-content h1{
         font-size: 38px;
@@ -216,7 +217,7 @@
         justify-content: center;
         align-items: center;
         height: 600px;
-        margin: 2rem 4rem;
+        margin: 6rem 4rem;
     }
     .about-content-image::before{
         content: '';
@@ -230,7 +231,7 @@
     }
     .offer{
         margin:2rem 2rem;
-        padding: 2rem
+        padding: 0rem
     }
     .our-team {
         padding:2rem 2rem
@@ -242,13 +243,17 @@
     .about-content1{
         padding: 2rem 2rem;
     }
+    .about-content2{
+        padding: 2rem 3rem;
+    }
+    
 }
 @media screen and (max-width:1201px) {
     .about-title{
         position: absolute;
-        bottom: 0rem;
-        left: 4%;
-        z-index: 99;
+        bottom: 3rem;
+        left: 6%;
+        z-index: 5;
     }
     .about-title h1{
         font-size: 63px;
@@ -259,14 +264,14 @@
         height: 500px;
         margin: 0rem 2rem;
     }
-.about-content-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    margin: 8rem 2rem;
-}
+    .about-content-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin: 8rem 2rem;
+    }
     .about-content h1{
         font-size: 33px;
         font-weight: bold;
@@ -307,7 +312,7 @@
         padding: 2rem 0rem;
     }
     .about-content1{
-        padding: 2rem 2rem;
+        padding: 2rem 0rem;
     }
     .about-content1 h1{
         font-size: 33px;
@@ -339,13 +344,60 @@
     .our-team {
         padding:2rem 4rem
     }
+    .m-and-v{
+        margin: 0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0;
+    }
+    .mission{
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        margin: 2rem;
+        padding: 3rem 2rem 2rem;
+        height: 280px;
+        justify-content: flex-start;
+    }
+    .mission h3{
+        margin: 0;
+    }
+    .mission p{
+        width: 350px;
+        font-size: 16px;
+        line-height: 34px;
+        color: #5A5A5A;
+    
+    }
+    .vision{
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 3rem 2rem 2rem;
+        margin: 1rem;
+        height: 280px;
+        justify-content: flex-start;
+    }
+    .vision h3{
+        margin: 0;
+    }
+    .vision p{
+        width: 350px;
+        font-size: 16px;
+        line-height: 34px;
+        color: #5A5A5A;
+    }
 }
 @media screen and (max-width:901px) {
     .about-title{
         position: absolute;
         bottom: 2rem;
         left: 7%;
-        z-index: 99;
+        z-index: 5;
     }
     .about-title h1{
         font-size: 53px;
@@ -380,7 +432,7 @@
     }
     .offer{
         margin:2rem 0rem;
-        padding: 0rem 1rem ;
+        padding: 0rem 2rem ;
         background-color: transparent;
     }
     .our-team {
@@ -391,7 +443,7 @@
         padding: 0rem 0rem;
     }
     .about-content1{
-        padding: 2rem 2rem;
+        padding: 2rem 0rem;
     }
     .about-content1 h1{
         font-size: 33px;
@@ -413,14 +465,27 @@
         margin: 0rem 0rem 2rem;
     }
     .about-content2 p{
-        max-width: 800px;
+        max-width: 500px;
         font-size: 20px;
         line-height: 33px;
         color: #5A5A5A;
     }
     .team-image{
         position: relative;
-        margin: 0 0.5rem;
+        margin: 0 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-image img{
+        width: 100%;
+        height: 500px;
+    }
+    .team-image::before{
+        content: '';
+        width: 100%;
+        height: 500px;
     }
     .our-team {
         padding:3rem 2rem;
@@ -437,5 +502,286 @@
     }
     .team-members{
         padding: 0rem 0rem
+    }
+    .team-image h1{
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+    .team-image p{
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+}
+@media screen and (max-width:501px) {
+    .about-title{
+        bottom: 5rem;
+        left: 32%;
+    }
+    .about-title h1{
+        font-size: 38px;
+    }
+    .about-content{
+        height: 400px;
+        margin: 0rem 0rem;
+        
+    }
+    .about-content-image{
+        display: none;
+    }
+    .about-content h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .about-content p{
+        max-width: 700px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #5A5A5A;
+    }
+    .about-content-container{
+        height: 400px;
+        margin: 2rem;
+    }
+    .offer{
+        margin:2rem 0rem;
+        padding: 0rem 0rem ;
+        background-color: transparent;
+    }
+    .our-team {
+        padding:2rem 2rem
+    }
+    .about-content{
+        flex: 1;
+        padding: 0rem 0rem;
+    }
+    .about-content1{
+        padding: 2rem 2rem 1rem;
+    }
+    .about-content1 h1{
+        font-size: 32px;
+        margin: 0;
+    }
+    .about-content1 p{
+        max-width: 420px;
+        font-size: 14px;
+        line-height: 25px;
+        color: #5A5A5A;
+    }
+    .about-content2{
+        padding: 0rem 0rem 0rem;
+    }
+    .about-content2 h1{
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0rem 0rem 0em;
+    }
+    .about-content2 p{
+        max-width: 320px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #5A5A5A;
+    }
+    .our-team {
+        padding:3rem 2rem;
+        background-color: #F9F9F9;
+    }
+    .m-and-v{
+        margin: 5rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: #f9f9f9;
+    }
+    .mission{
+        margin: 2rem 0 0;
+        padding: 0 2rem;
+        height: 300px;
+    }
+    .mission h3{
+    
+    }
+    .mission p{
+        width: 300px;
+        font-size: 17px;
+        line-height: 32px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .vision{
+        padding: 0 2rem;
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 330px;
+    }
+    .vision h3{
+        
+    }
+    .vision p{
+        width: 300px;
+        font-size: 17px;
+        line-height: 32px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .team-members{
+        padding: 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+    }
+
+    .team-members img{
+        object-fit: cover;
+        width: 360px;
+        height: 480px
+    }
+    .team-members h1{
+        margin-top: 3rem;
+    }
+    .team-image{
+        position: relative;
+        margin: 0 0rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team-image::before{
+        content: '';
+        width: 100%;
+        height: 480px;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        z-index: 9999;
+    }
+    .about-vertical{
+        content: "";
+        width: 80px;
+        height: 2px;
+        background-color: #246a47;
+        margin: 0rem 0;
+    }
+}
+@media screen and (max-width: 380px) {
+    .team-members img{
+        object-fit: cover;
+        width: 310px;
+        height: 480px
+    }
+    .about-content1{
+        padding-top: 0;
+    }
+    .m-and-v{
+        margin: 8rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: #f9f9f9;
+    }
+    .mission{
+        margin: 2rem 0 0;
+        padding: 0 2rem;
+        height: 180px;
+    }
+    .mission h3{
+        margin: 0.5rem 0; 
+    }
+    .mission p{
+        width: 250px;
+        font-size: 11px;
+        line-height: 22px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .vision{
+        padding: 0 2rem;
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 220px;
+    }
+    .vision h3{
+        margin: 0.5rem 0; 
+    }
+    .vision p{
+        width: 250px;
+        font-size: 11px;
+        line-height: 22px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 340px) {
+    .team-members img{
+        object-fit: cover;
+        width: 260px;
+        height: 480px
+    }
+    .about-title{
+        bottom: rem;
+        left: 28%;
+    }
+    .about-title h1{
+        font-size: 38px;
+    }
+    .about-content1{
+        padding-top: 0;
+    }
+    .m-and-v{
+        margin: 12rem 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        background-color: #f9f9f9;
+    }
+    .mission{
+        margin: 2rem 0 0;
+        padding: 0 2rem;
+        height: 180px;
+    }
+    .mission h3{
+        margin: 0.5rem 0; 
+        font-size: 18px;
+    }
+    .mission p{
+        width: 200px;
+        font-size: 9px;
+        line-height: 18px;
+        color: #5A5A5A;
+        margin: 0;
+    }
+    .vision{
+        padding: 0 2rem;
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    .vision h3{
+        margin: 0.5rem 0; 
+        font-size: 18px;
+    }
+    .vision p{
+        width: 200px;
+        font-size: 9px;
+        line-height: 18px;
+        color: #5A5A5A;
+        margin: 0;
     }
 }

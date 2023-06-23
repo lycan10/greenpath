@@ -16,33 +16,21 @@ const Footer = () => {
                 <h1>Company</h1>
                 <ul>
                     <li>
-                        <Link className='footer-link-cta' to='/'><span>About us</span></Link>
+                        <Link className='footer-link-cta' to='/'><span>Who we are</span></Link>
                     </li>
                     <li>
-                        <Link className='footer-link-cta' to='/'><span>Services</span></Link>
+                        <Link className='footer-link-cta' to='/'><span>Services we provide</span></Link>
                     </li>
                     <li>
-                        <Link className='footer-link-cta' to='/'><span>Investment</span></Link>
-                    </li>
-                    <li>
-                        <Link className='footer-link-cta' to='/'><span>Contact</span></Link>
-                    </li>
-                    <li>
-                        <Link className='footer-link-cta' to='/blog'><span>Blog</span></Link>
+                        <Link className='footer-link-cta' to='/'><span>Contact us</span></Link>
                     </li>
                 </ul>
             </div>
-            <div className='footer-contact'>
-                <h1>Location</h1>
-                    <p>1345 Avenue of Americas <br /> 
-                    32nd Floor <br /> New York NY 10105</p>
-                    <p>+1 (646) 357 3144</p>
-                </div>
             <div className='footer-info'>
-            <h1>General info</h1>
-                <p>email-addresss</p>
-                <p>Disclaimer</p>
-
+            <h1>Location</h1>
+                <p>No. 3 Tito Bros Street, <br/> Asokoro Abuja.
+                </p>
+                <p style={{marginTop:'0.5rem'}}>+1 (646) 357 3144</p>
             </div>
         </div>
 

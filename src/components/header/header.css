@@ -1,5 +1,4 @@
-header{
-}
+
 .header-container{
     display:flex;
     flex-direction: column;
@@ -25,7 +24,8 @@ header{
 
 .header-text{
     position: absolute;
-    z-index: 88;
+    z-index: 4;
+    top: 23rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +38,7 @@ header{
     color: white;
     margin: 0;
     line-height: 103px;
+    max-width: 1000px;
     text-align: center;
 }
 .header-text p{
@@ -72,4 +73,125 @@ header{
     width: 100%;
     height: 100vh;
     z-index: 4;
+}
+
+@media screen and (max-width: 1500px) {
+.header-text{
+    position: absolute;
+    z-index: 4;
+    top: 39rem;
+}
+}
+@media screen and (max-width: 1201px) {
+    
+.header-text{
+    top: 34rem;
+}
+.header-text h1{
+    font-size: 62px;
+    line-height: 83px;
+    max-width: 900px;
+    text-align: center;
+}
+.header-text p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #cbd2de;
+    margin-top: 2rem;
+    
+}
+.header-text span{
+    color: #84dc00   
+}
+
+
+}
+@media screen and (max-width: 801px) {
+    
+    .header-text{
+        top: 21rem;
+    }
+    .header-text h1{
+        font-size: 47px;
+        line-height: 63px;
+        max-width: 700px;
+        text-align: center;
+    }
+    .header-text p{
+        font-size: 12px;
+        font-weight: bold;
+        color: #cbd2de;
+        margin-top: 2rem;
+        
+    }
+    .header-text span{
+        color: #84dc00   
+    }
+    .header-btn-div{
+        margin-top: 3rem;
+    }
+    
+    
+}
+@media screen and (max-width: 501px) {
+    
+    .header-text{
+        top: 20rem;
+    }
+    .header-text h1{
+        font-size: 36px;
+        line-height: 46px;
+        text-align:center;
+        max-width: 350px;
+    }
+    .header-text p{
+        font-size: 11px;
+        margin-top: 1.5rem;
+        max-width: 270px;
+        text-align: center;
+        
+    }
+    .header-btn-div{
+        margin-top: 1.7rem;
+    }
+    .header-button{
+        background-color: #246a47;
+        padding: 0.7rem 2rem;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+}
+@media screen and (max-width: 350px) {
+    
+    .header-text{
+        top: 16rem;
+    }
+    .header-text h1{
+        font-size: 26px;
+        line-height: 36px;
+        text-align:center;
+        max-width: 250px;
+    }
+    .header-text p{
+        font-size: 9px;
+        margin-top: 1rem;
+        max-width: 200px;
+        text-align: center;
+        
+    }
+    .header-btn-div{
+        margin-top: 1.7rem;
+    }
+    .header-button{
+        background-color: #246a47;
+        padding: 0.7rem 2rem;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    
 }

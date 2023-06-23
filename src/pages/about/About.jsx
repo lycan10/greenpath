@@ -71,17 +71,17 @@ const About = () => {
           </div>
           <div className='team-members'>
             <div className='team-image'>
-              <img  height={600} src={team1} />
+              <img src={team1} />
               <h1>Tobiloba Daniels</h1>
               <p>C.E.O</p>
             </div>
             <div className='team-image'>
-              <img height={600} src={team2} />
+              <img src={team2} />
               <h1>Jessica jopas</h1>
               <p>Legal adviser</p>
             </div>
             <div className='team-image'>
-              <img height={600} src={team3} />
+              <img src={team3} />
               <h1>Sanada tasha</h1>
               <p>Business analyst</p>
             </div>

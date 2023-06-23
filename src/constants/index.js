@@ -63,60 +63,60 @@ export const servicesDate = [
         id: 0,
         img: service1,
         title: "Oil and gas",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'Our services encompasses the exploration, production, refining, and distribution of high-quality petroleum products.'
     },
     {
         id: 1,
         img: service2,
         title: "Power",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'With a strong commitment to innovation, efficiency, and environmental stewardship, we strive to deliver clean and affordable power to communities, industries, and infrastructure projects.'
     },
     {
         id: 2,
         img: service3,
         title: "Finance",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'Whether you require assistance with personal finance, investment strategies, or corporate financial management, we have the expertise to guide you on the path to financial success.'
     },
     {
         id: 3,
         img: service4,
         title: "Construction",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'We offer comprehensive construction services that encompass a wide range of projects, for residential, commercial and industrial developments.'
     },
     {
         id: 4,
         img: service5,
         title: "Logistics",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'We offer a comprehensive range of logistics services designed to streamline supply chain operations and ensure efficient movement of goods and materials. '
     },
     {
         id: 5,
         img: service6,
         title: "Real estate",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'With a strong focus on client satisfaction and a team of experienced professionals, we aim to assist clients in achieving their real estate goals, whether it be buying, selling, leasing, investing or managing the property.'
     },
     {
         id: 6,
         img: service7,
         title: "Agriculture",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'We seek to revolutionize the agricultural sector through sustainable practices, advanced technologies, and cutting-edge solutions.'
     },
     {
         id: 7,
         img: service8,
         title: "Import and export",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'With an extensive network of partners and a deep understanding of the global market, we provide comprehensive import and export solutions, ensuring smooth and efficient transactions for our clients.'
     },
     {
         id: 8,
         img: service9,
         title: "Consultation",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'We offer comprehensive consultation services to assist clients in various industries with their specific needs and challenges.'
     },
     {
         id: 9,
         img: service10,
         title: "General contracting",
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor'
+        content: 'We specialize in delivering comprehensive procurement solutions to organizations across industries, by creating a safe, efficient, creative, and cost-effective plan to bring your project to life.'
     },
 ]
