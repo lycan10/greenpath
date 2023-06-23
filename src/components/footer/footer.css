@@ -84,7 +84,7 @@
     margin: 0 0.4rem;
     color: white;
 }
-@media screen and (max-width: 1201px) {
+@media (max-width: 1201px) {
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -106,7 +106,7 @@
         object-fit: cover;
     }
 }
-@media screen and (max-width: 850px) {
+@media (max-width: 850px) {
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -147,7 +147,7 @@
         margin: 0;
     }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -211,7 +211,7 @@
         color: white;
     }
 }
-@media screen and (max-width:350px) {
+@media (max-width:350px) {
     .footer-bottom{
         display: flex;
         flex-direction: column;

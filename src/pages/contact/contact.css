@@ -172,7 +172,7 @@
     margin-bottom: 8rem
 }
 
-@media screen and (max-width:1500px) {
+@media (max-width:1500px) {
     .contact-title{
         bottom: 2rem;
         left: 6%;
@@ -213,7 +213,7 @@
         font-size: 30px;
     }
 }
-@media screen and (max-width:1201px) {
+@media (max-width:1201px) {
     .contact-title{
         bottom: 2rem;
         left: 4%;
@@ -303,7 +303,7 @@
     margin: 4rem;
 }
 }
-@media screen and (max-width:801px) {
+@media (max-width:801px) {
     .contact-title{
         bottom: 1rem;
         left: 4%;
@@ -363,7 +363,7 @@
 }
 
 }
-@media screen and (max-width:500px) {
+@media (max-width:500px) {
     .contact-content{
         margin: 2rem 1rem;
     }
@@ -512,7 +512,7 @@
         height: 350px;
     }
 }
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
     .contact-form{
         height: 520px;
         padding: 2rem 1rem 4rem;

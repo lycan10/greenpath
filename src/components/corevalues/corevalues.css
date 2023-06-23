@@ -26,13 +26,13 @@
 .core-content h1{
     font-size: 33px;
 }
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .core-values{
         padding: 10rem 2rem;
         background-color: #F7F7F8;
     }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .core-values{
         padding: 10rem 2rem;
     }
@@ -45,7 +45,7 @@
         transition: transform 0.5s;
     } 
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .core-values-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -64,7 +64,7 @@
         transition: transform 0.5s;
     } 
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
    
     .core-values{
         padding: 4rem 2rem;

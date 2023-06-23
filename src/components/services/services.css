@@ -60,7 +60,7 @@
     background-color: transparent;
     transition: all 0.4s;
 }
-@media screen and (max-width: 1500px) {
+@media (max-width: 1500px) {
     .services{
         padding: 4rem;
     }
@@ -76,7 +76,7 @@
         font-size: 28px;  
     }
 }
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
         .services{
             padding: 4rem;
         }
@@ -97,7 +97,7 @@
             font-size: 28px;  
         }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .services{
         padding: 4rem;
     }
@@ -118,7 +118,7 @@
         font-size: 28px;  
     }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .services{
         padding: 4rem;
     }
@@ -147,7 +147,7 @@
         font-size: 0px;  
     }
 }
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .services{
         padding: 3rem;
     }
@@ -157,7 +157,7 @@
         
     }
 }
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
     .services{
         padding: 2rem;
     }

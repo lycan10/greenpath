@@ -75,14 +75,14 @@
     z-index: 4;
 }
 
-@media screen and (max-width: 1500px) {
+@media (max-width: 1500px) {
 .header-text{
     position: absolute;
     z-index: 4;
     top: 39rem;
 }
 }
-@media screen and (max-width: 1201px) {
+@media (max-width: 1201px) {
     
 .header-text{
     top: 34rem;
@@ -106,7 +106,7 @@
 
 
 }
-@media screen and (max-width: 801px) {
+@media (max-width: 801px) {
     
     .header-text{
         top: 21rem;
@@ -133,7 +133,7 @@
     
     
 }
-@media screen and (max-width: 501px) {
+@media (max-width: 501px) {
     
     .header-text{
         top: 20rem;
@@ -164,7 +164,7 @@
     
     
 }
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
     
     .header-text{
         top: 16rem;

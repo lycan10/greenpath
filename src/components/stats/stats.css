@@ -98,7 +98,7 @@
     z-index: 40;
     background-color: rgba(0, 0, 0, 0.75)
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .stat-button{
         font-family: "lora", serif;
         font-size: 16px;
@@ -112,7 +112,7 @@
         transition: all 0.5s;
     }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .stat-container {
         position: relative;
         width: 100%;

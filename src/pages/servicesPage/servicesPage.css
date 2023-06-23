@@ -226,7 +226,7 @@
     height: 500px;
     object-fit: cover;
   }
-  @media (max-width: 1450px) {
+@media (max-width: 1450px) {
     .services-title {
       position: absolute;
       bottom: 2rem;
@@ -273,7 +273,7 @@
     }
 
   }
-  @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .our-spec {
       position: relative;
       overflow: hidden;

@@ -44,7 +44,7 @@
     color: white;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .review{
         padding: 4rem 2rem 8rem;
     }
@@ -68,7 +68,7 @@
        font-weight: 300;
     }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .review{
         padding: 4rem 2rem 8rem;
     }
@@ -100,7 +100,7 @@
        font-weight: 300;
     }
 }
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .review{
         padding: 2rem 2rem 4rem;
     }
@@ -128,7 +128,7 @@
        font-weight: 300;
     }
 }
-@media screen and (max-width: 380px) {
+@media (max-width: 380px) {
     .review{
         padding: 2rem 2rem 4rem;
     }
@@ -156,7 +156,7 @@
        font-weight: 300;
     }
 }
-@media screen and (max-width: 350px) {
+@media (max-width: 350px) {
     .review-container h1{
         font-size: 23px;
         color: #246a47;
